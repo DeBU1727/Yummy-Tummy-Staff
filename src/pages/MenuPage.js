@@ -52,7 +52,7 @@ const MenuPage = () => {
     api.get('/menu')
       .then(res => setMenu(res.data))
       .catch(err => showNotification('Failed to load menu', 'error'));
-  }, []);
+  }, [showNotification]);
 
   const addToCart = (item) => {
     setCart(prev => {

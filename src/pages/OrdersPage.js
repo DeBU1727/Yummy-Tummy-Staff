@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { 
   Box, Typography, Paper, Table, TableBody, TableCell, TableContainer, 
   TableHead, TableRow, Button, Chip, CircularProgress, IconButton, 
-  Container, Avatar, Tooltip, Zoom, Fade, Stack 
+  Container, Avatar, Tooltip, Fade, Stack 
 } from '@mui/material';
 import PrintIcon from '@mui/icons-material/Print';
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
